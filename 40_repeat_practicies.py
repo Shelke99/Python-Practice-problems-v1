@@ -633,8 +633,51 @@ import enum
 #     print(chr(i), '>',i)
 
 # 12.Create star patterns (square, triangle) of user-given height.
-height = int(input("Enter the height:"))
-for i in range(height,0,-1):
-    print('*' * i)
-    for j in range(height,0,-1):
-        print('*' * j)
+# height = input("Enter the height:")
+# # for i in range(height,0,-1):
+# for i in height:
+#     print(height[::-1])
+# count = height.count("p")
+#
+# year = int(input("Enter the year: "))
+# month = int(input("Enter the month: "))
+# is_leap = (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
+#
+# if month in [1,3,5,7,8,10,12]:
+#     print("31 day in month")
+# elif month in [2,4,6,9,11]:
+#     print("30 day in month")
+# elif month == 2:
+#     if is_leap:
+#         print("29 day in month is (leap year)")
+#     else:
+#         print("28 day in month")
+# else:
+#     print("Invalid month")
+#
+# if is_leap:
+#     print(year,"print is leap year")
+# else:
+#     print(year, "is not a leap year")
+#
+# 13.Use break to search for a number in a list and exit on finding.
+n = int(input("enter the number:"))
+# lst = [1,2,3,4,5,6,7,8,9]
+# found = False
+# for i in lst:
+#     if i == n:
+#       print(n,"is in list")
+#       found = True
+#       break
+# if not found:
+#     print(n,"is not in list")
+
+# 4.Use continue to skip printing odd numbers.
+#
+# for i in range(n+1):
+#     if i % 2 != 0:
+#         # pass
+#         continue
+#     print(i, "this is even number")
+
+# 15.Print only non-negative values from user input, stop on a negative.
