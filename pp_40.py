@@ -1,0 +1,1 @@
+# Keep reading input until a sentinel value (e.g., -99) is entered.
