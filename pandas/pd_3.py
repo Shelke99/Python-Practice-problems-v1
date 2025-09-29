@@ -1,5 +1,5 @@
 import pandas as pd
-import pp_35 as np
+import codep as np
 data = {
     "name" : ['Ram','Sham', 'Ghanshyam'],
     "Age" : [22,23,24],
